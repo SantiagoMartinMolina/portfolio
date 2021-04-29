@@ -1,13 +1,14 @@
 import React from 'react';
 import { StyledHome } from './StyledHome';
 import About from '../../Components/About/About';
+import Skills from '../../Components/Skills/Skills';
 
 const Home = () => {
     return (
         <StyledHome>
 
             <About />
-
+            <Skills />
 
             <div>
 

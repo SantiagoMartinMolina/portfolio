@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const StyledAbout = styled.section`
-    padding: 2em;
-    background: rgb(49,49,49);
-    background: linear-gradient(0deg, rgba(49,49,49,1) 0%, rgba(49,49,49,1) 10%, rgba(49,49,49,0) 100%);
+    /* padding: 2em; */
+    /* background-color: var(--color2); */
+
+    /* background: rgb(49,49,49); */
+    /* background: linear-gradient(0deg, rgba(49,49,49,1) 0%, rgba(49,49,49,1) 10%, rgba(49,49,49,0) 100%); */
 
     .subtitle{
         font-size: 1.6em;

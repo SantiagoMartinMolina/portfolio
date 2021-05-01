@@ -32,6 +32,7 @@ export const StyledAbout = styled.section`
     }
     p{
         color: white;
+        margin: auto;
     }
     h1{
         font-size: 5em;

@@ -23,18 +23,30 @@ export const StyledNavbar = styled.nav`
             justify-content: center;  
             align-items: center;
             flex-grow: 1;      
+
+
             a{
                 padding: 0.5em;
                 color: white;
                 text-decoration: none;
                 display: inline-block;
                 font-size: 1.2em;
-                /* font-weight: bold; */
                 i{
                     font-size: 1.4em;
-                    /* font-weight: unset; */
                 }               
             }
+            .btn-hover{
+                padding: 0.3em;
+                margin: 0.4em;
+                box-shadow: inset 0 0 0 0 var(--color);
+                transition: ease-out 300ms;
+            }
+            .btn-hover:hover{
+                box-shadow: inset 140px 0 0 0 var(--color);
+                color: black;
+            }
+
+
             .contact{
                     margin-right: auto;
                 }

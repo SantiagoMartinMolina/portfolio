@@ -65,7 +65,7 @@ export const StyledContactForm = styled.section`
         /* align-items: center; */
         background-color: var(--color3);
         /* flex-direction: column; */
-        color: var(--color);
+        color: white;
         padding: 1em 0;
         a{
             padding: 0.5em;
@@ -77,7 +77,10 @@ export const StyledContactForm = styled.section`
             i{
                 font-size: 1.4em;
                 /* font-weight: unset; */
-            }               
+            }   
+            &:hover{
+                color: var(--color);
+            }            
         }
         p{
             /* margin-left: 2em; */

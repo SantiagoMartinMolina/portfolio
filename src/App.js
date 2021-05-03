@@ -9,7 +9,7 @@ const App = () => {
       <Navbar />
       <Home />
       <ContactForm />
-    </div>
+    </div >
   );
 }
 

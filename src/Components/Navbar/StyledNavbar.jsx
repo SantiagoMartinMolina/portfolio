@@ -5,7 +5,7 @@ export const StyledNavbar = styled.nav`
     /* width: 100%; */
     /* top: 0; */
     /* background-color: rgba(226, 219, 118, 0.8); */
-    /* z-index: 10; */
+    /* z-index: 1000; */
     color: white;
     .container{
         padding: 1em 0;

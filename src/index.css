@@ -26,6 +26,13 @@ body {
   --color: #f6cb86;
   --color2: #313131;
   --color3: #314137;
+  /* --color3: #000000; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh; */
+  /* overflow: hidden; */
 }
 
 h1{
@@ -41,4 +48,153 @@ p{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* #root{
+  width: 100%;
+} */
+
+
+.asd{
+  position: absolute;
+  /* display: flex;
+  flex-wrap: wrap; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  min-height: 3000px;
+  overflow: hidden;
+  z-index: -1;
+}
+.glowing{
+  position: relative;
+  min-width: 750px;
+  height: 750px;
+  
+  /* margin: -150px; */
+  transform-origin: right;
+  /* animation: colorChange 8s linear infinite; */
+}
+
+@keyframes colorChange{
+  0%{
+    filter: hue-rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.glowing:nth-child(even){
+  transform-origin: left;
+}
+
+.glowing span{
+  position: absolute;
+  top: calc(80px * var(--i));
+  left: calc(80px * var(--i));
+  bottom: calc(80px * var(--i));
+  right: calc(80px * var(--i));
+}
+
+.glowing span:before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 08px;
+  width: 15px;
+  height: 15px;
+  background: #f00;
+  border-radius: 50%;
+}
+
+.glowing span:nth-child(3n + 1):before{
+  background: rgba(134, 255, 0, 1);
+  box-shadow: 0 0 20px rgba(134, 255, 0, 1),
+              0 0 40px rgba(134, 255, 0, 1),
+              0 0 60px rgba(134, 255, 0, 1),
+              0 0 80px rgba(134, 255, 0, 1),
+              0 0 8px rgba(134, 255, 0, .1);
+}
+
+.glowing span:nth-child(3n + 2):before{
+  background: rgba(255, 214, 0, 1);
+  box-shadow: 0 0 20px rgba(255, 214, 0, 1),
+              0 0 40px rgba(255, 214, 0, 1),
+              0 0 60px rgba(255, 214, 0, 1),
+              0 0 80px rgba(255, 214, 0, 1),
+              0 0 8px rgba(255, 214, 0, .1);
+}
+
+.glowing span:nth-child(3n + 3):before{
+  background: rgba(0, 226, 255, 1);
+  box-shadow: 0 0 20px rgba(0, 226, 255, 1),
+              0 0 40px rgba(0, 226, 255, 1),
+              0 0 60px rgba(0, 226, 255, 1),
+              0 0 80px rgba(0, 226, 255, 1),
+              0 0 8px rgba(0, 226, 255, .1);
+}
+.glowing span:nth-child(3n + 4):before{
+  background: rgb(231, 9, 9);
+  box-shadow: 0 0 20px rgba(231, 9, 9, 1),
+              0 0 40px rgba(231, 9, 9, 1),
+              0 0 60px rgba(231, 9, 9, 1),
+              0 0 80px rgba(231, 9, 9, 1),
+              0 0 8px rgba(231, 9, 9, .1);
+}
+.glowing span:nth-child(3n + 5):before{
+  background: rgb(168, 9, 231);
+  box-shadow: 0 0 20px rgba(168, 9, 231, 1),
+              0 0 40px rgba(168, 9, 231, 1),
+              0 0 60px rgba(168, 9, 231, 1),
+              0 0 80px rgba(168, 9, 231, 1),
+              0 0 8px rgba(168, 9, 231, .1);
+}
+.glowing span:nth-child(3n + 6):before{
+  background: rgb(255, 145, 0);
+  box-shadow: 0 0 20px rgba(255, 145, 0, 1),
+              0 0 40px rgba(255, 145, 0, 1),
+              0 0 60px rgba(255, 145, 0, 1),
+              0 0 80px rgba(255, 145, 0, 1),
+              0 0 8px rgba(255, 145, 0, .1);
+}
+
+.glowing span:nth-child(3n + 1){
+  animation: animate 3s alternate infinite;
+}
+.glowing span:nth-child(3n + 2){
+  animation: animate-reverse 6s alternate infinite;
+}
+.glowing span:nth-child(3n + 3){
+  animation: animate 9s alternate infinite;
+}
+.glowing span:nth-child(3n + 4){
+  animation: animate-reverse 12s alternate infinite;
+}
+.glowing span:nth-child(3n + 5){
+  animation: animate 15s alternate infinite;
+}
+.glowing span:nth-child(3n + 6){
+  animation: animate-reverse 7s alternate infinite;
+}
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-reverse{
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
 }

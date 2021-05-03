@@ -11,11 +11,11 @@ export const StyledHome = styled.div`
     border: 1px solid rgba(250, 250, 250, 0.3);
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.472);
     text-align: center;
-    background-color: var(--color2);
+    background-color:rgba(49, 49, 49, 1);
 
     /* background-color: rgba(250, 250, 250, 0.1); */
     div{
-        background-color: #313131;
+        /* background-color: #313131; */
         color: white;
     }
 

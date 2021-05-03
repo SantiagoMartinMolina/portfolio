@@ -12,24 +12,27 @@ export const StyledSkills = styled.section`
         flex-wrap: wrap;
 
         .card{
+            padding: 1em;
+            margin: 0.67em;
             position: relative;
-            width: 170px;
+            width: 220px;
             height: 270px;
             background: black;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 27px;
-            box-shadow: 0 0 50px #6f705c;
-            border: 1px solid transparent;
+            /* border: 1px solid transparent; */
+            border: 2px solid var(--color2);
+
             transition: 500ms;
             overflow: hidden;
+
             .content{
                 /* padding: 30px; */
                 background-color: inherit;
                 .svg{
                     fill: var(--color);
-                    width: 7em;
+                    width: 6.5em;
 
                     /* position: absolute; */
                     /* top: 15%; */
@@ -50,7 +53,8 @@ export const StyledSkills = styled.section`
             }
 
             &:hover{
-                border: 1px solid var(--color);
+                border: 2px solid var(--color);
+                box-shadow: 0 0 20px #6f705c;
 
                 .content{
                     .svg{
@@ -79,37 +83,37 @@ export const StyledSkills = styled.section`
                 left: 0;
                 width: 100%;
                 height: 3px;
-                background: linear-gradient(to right, transparent, #1778ff);
-                animation: animate1 1s linear infinite;
+                background: linear-gradient(to right, transparent, var(--color));
+                animation: animate1 2s linear infinite;
 
-            } */
-            /* span:nth-child(2){
+            }
+            span:nth-child(2){
                 position: absolute;
                 top: 0;
                 right: 0;
                 width: 3px;
                 height: 100%;
-                background: linear-gradient(to bottom, transparent, #1778ff);
+                background: linear-gradient(to bottom, transparent, var(--color));
                 animation: animate2 2s linear infinite;
                 animation-delay: 1s;
-            } */
-            /* span:nth-child(3){
+            }
+            span:nth-child(3){
                 position: absolute;
                 bottom: 0;
                 left: 0;
                 width: 100%;
                 height: 3px;
-                background: linear-gradient(to left, transparent, #1778ff);
-                animation: animate3 1s linear infinite;
+                background: linear-gradient(to left, transparent, var(--color));
+                animation: animate3 2s linear infinite;
 
-            } */
-            /* span:nth-child(4){
+            }
+            span:nth-child(4){
                 position: absolute;
                 top: 0;
                 left: 0;
                 width: 3px;
                 height: 100%;
-                background: linear-gradient(to top, transparent, #1778ff);
+                background: linear-gradient(to top, transparent, var(--color));
                 animation: animate4 2s linear infinite;
                 animation-delay: 1s;
             } */

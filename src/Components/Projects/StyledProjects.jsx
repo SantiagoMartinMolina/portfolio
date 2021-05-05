@@ -3,9 +3,13 @@ import styled from 'styled-components';
 export const StyledProjects = styled.section`
     /* background-color: var(--color2); */
     /* padding: 2em; */
+    padding: 3em;
+
 
     h1{
         color: white;
+        font-size: 3em;
+        margin-bottom: 1em;
     }
     .container{
         display: flex;

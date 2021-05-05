@@ -2,8 +2,16 @@ import styled from 'styled-components';
 
 export const StyledSkills = styled.section`
     /* background-color: var(--color2); */
-    /* padding: 2em; */
+    padding: 3em;
     color: white;
+    border-top: 1px solid var(--color);
+    border-bottom: 1px solid var(--color);
+
+
+    h1{
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
 
     .icons-container{
         display: flex;

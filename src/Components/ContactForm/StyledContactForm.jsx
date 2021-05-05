@@ -38,6 +38,7 @@ export const StyledContactForm = styled.section`
         }
 
         .btn{
+            min-width: 10em;
             margin: 0.5em;
             padding: 0.5em 1.3em;
             background-color: var(--color2);
@@ -55,6 +56,22 @@ export const StyledContactForm = styled.section`
                 background-color: var(--color);
                 color: var(--color2);
                 outline: none;
+            }
+            i{
+                margin-right: 1em;
+            }
+        }
+        .btn[disabled]{
+            opacity: 0.7;
+            cursor: default;
+            transform: none !important;
+        }
+
+        .success{
+            font-size: 1.5em;
+            i{
+                margin-left: 0.5em;
+                color: green;
             }
         }
 

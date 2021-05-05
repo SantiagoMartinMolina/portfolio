@@ -6,7 +6,7 @@ export const StyledAbout = styled.section`
 
     /* background: rgb(49,49,49); */
     /* background: linear-gradient(0deg, rgba(49,49,49,1) 0%, rgba(49,49,49,1) 10%, rgba(49,49,49,0) 100%); */
-
+    margin: 3em 0;
     .subtitle{
         font-size: 1.6em;
         font-family: 'Poppins';

@@ -10,17 +10,15 @@ export const StyledProjects = styled.section`
     .container{
         display: flex;
         /* justify-content: space-between; */
+        align-items: center;
         margin: 3em 0;
-    }
-    .images{
-        .img-cont{
-            width: 70%;
-            margin: auto;
-            img{
-                max-width: 100%;
-            }
+
+        .images{
+            margin-left: 1.5em;
         }
+
     }
+
 
     .images, .description{
         flex: 1;

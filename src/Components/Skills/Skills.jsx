@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { StyledSkills } from './StyledSkills';
-import { NavLink } from 'react-router-dom';
 import ReactIcon from '../../icons/ReactIcon';
 import HTMLIcon from '../../icons/HTMLIcon';
 import CSSIcon from '../../icons/CSSIcon';

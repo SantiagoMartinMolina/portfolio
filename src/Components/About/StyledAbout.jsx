@@ -15,6 +15,9 @@ export const StyledAbout = styled.section`
     }
 
     .btn{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
         margin: 1em;
         padding: 0.7em 1.5em;
         border: 0;

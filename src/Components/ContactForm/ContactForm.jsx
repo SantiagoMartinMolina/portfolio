@@ -45,9 +45,9 @@ const ContactForm = () => {
                 </Fade>
             </div>
             <div className='social-media'>
-                <a href='#'><i class="fab fa-twitter-square"></i></a>
-                <a href='#'><i class="fab fa-github-square"></i></a>
-                <a href='#'><i class="fab fa-linkedin"></i></a>
+                <a href='https://twitter.com/santidev7' target='_blank' rel='noopener noreferrer'><i class="fab fa-twitter-square"></i></a>
+                <a href='https://github.com/SantiagoMartinMolina' target='_blank' rel='noopener noreferrer'><i class="fab fa-github-square"></i></a>
+                <a href='https://www.linkedin.com/in/santiago-molina-dev/' target='_blank' rel='noopener noreferrer'><i class="fab fa-linkedin"></i></a>
                 {/* <p><a><i class="fas fa-envelope-open-text"></i></a>
                     <span>molina.santiago.martin@gmail.com</span></p> */}
                 <p>Hecho por Santiago Martin Molina 2021 </p>

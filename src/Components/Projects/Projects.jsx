@@ -30,6 +30,7 @@ const Projects = () => {
                         <button className='btn'>Ver demo</button>
                     </div>
                     <div className='images'>
+                        <Carousel />
 
 
                     </div>
@@ -43,6 +44,7 @@ const Projects = () => {
                         <button className='btn'>Ver demo</button>
                     </div>
                     <div className='images'>
+                        <Carousel />
 
 
                     </div>

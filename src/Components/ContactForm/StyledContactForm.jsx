@@ -12,6 +12,10 @@ export const StyledContactForm = styled.section`
         max-width: 1200px;
         margin: 0 auto;
     }
+    h1{
+        font-size: 3em;
+        margin-bottom: 0.4em;
+    }
     form{
         display: flex;
         flex-direction: column;

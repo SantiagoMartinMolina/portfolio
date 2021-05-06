@@ -29,6 +29,9 @@ export const StyledProjects = styled.section`
     }
 
     .btn{
+        text-decoration: none;
+        color: black;
+        display: inline-block;
         margin: 0.8em;
         padding: 0.4em 1em;
         border: 0;

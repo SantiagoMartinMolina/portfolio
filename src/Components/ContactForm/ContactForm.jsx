@@ -25,7 +25,7 @@ const ContactForm = () => {
         e.target.reset();
     }
     return (
-        <StyledContactForm>
+        <StyledContactForm id='contacto'>
             <div className='container'>
                 <Fade bottom>
                     <h1>Contacto</h1>

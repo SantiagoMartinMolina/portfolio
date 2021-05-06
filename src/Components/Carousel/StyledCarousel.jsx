@@ -23,6 +23,10 @@ export const StyledCarousel = styled.div`
             align-items: center;
             color: white;
             cursor: pointer;
+
+            path{
+                transform: translateX(4px);
+            }
         }
 
         

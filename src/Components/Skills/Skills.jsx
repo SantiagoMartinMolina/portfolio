@@ -13,7 +13,7 @@ import Fade from 'react-reveal/Fade';
 const Skills = () => {
 
     return (
-        <StyledSkills>
+        <StyledSkills id='habilidades'>
             <Fade bottom><h1>Habilidades</h1></Fade>
             <div className='icons-container'>
                 <Fade bottom>

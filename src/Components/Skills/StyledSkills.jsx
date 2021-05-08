@@ -191,4 +191,14 @@ export const StyledSkills = styled.section`
     }
 
 }
+
+@media (max-width: 620px){
+    .icons-container{
+        .card{
+            font-size: 13px;
+            width: 120px;
+            height: 180px;
+        }
+    }
+}
 `

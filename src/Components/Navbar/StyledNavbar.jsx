@@ -25,6 +25,7 @@ export const StyledNavbar = styled.nav`
             list-style: none;
             justify-content: center;  
             align-items: center;
+            /* flex-wrap: wrap; */
 
             a{
                 padding: 0.5em;
@@ -80,6 +81,9 @@ export const StyledNavbar = styled.nav`
     @media (max-width: 460px) {
         .fas{
             display: none;
+        }
+        .menu{
+            font-size: 0.94em;
         }
     }
 

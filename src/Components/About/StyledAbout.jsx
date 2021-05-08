@@ -18,7 +18,7 @@ export const StyledAbout = styled.section`
         display: inline-block;
         text-decoration: none;
         color: black;
-        margin: 1em;
+        margin: 1em 0;
         padding: 0.7em 1.5em;
         border: 0;
         background-color: var(--color);
@@ -86,6 +86,10 @@ export const StyledAbout = styled.section`
     }
     h1{
         font-size: 2.5em;
+    }
+
+    .btn{
+        display: block;
     }
 }
 `

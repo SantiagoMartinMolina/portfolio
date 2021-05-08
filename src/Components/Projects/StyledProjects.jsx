@@ -54,7 +54,7 @@ export const StyledProjects = styled.section`
 
             .images{
                 margin: 0;
-                width: 90%;
+                width: 100%;
             }
         }
     }

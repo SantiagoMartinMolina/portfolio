@@ -63,7 +63,29 @@ export const StyledAbout = styled.section`
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             color: white;
-}
+        }
 
     }
+
+@media (max-width: 620px){
+    margin-top: 0;
+    h1{
+        font-size: 3.5em;
+        &::after {
+            background-size: 3px 3px;
+        }
+    }
+}
+@media (max-width: 460px){
+    .subtitle{
+        font-size: 1em;
+    }
+    .text{
+        text-align: left;
+        font-size: 0.85em;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+}
 `

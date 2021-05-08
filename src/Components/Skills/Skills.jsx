@@ -14,7 +14,9 @@ const Skills = () => {
 
     return (
         <StyledSkills id='habilidades'>
-            <Fade bottom><h1>Habilidades</h1></Fade>
+            <Fade bottom>
+                <h1>Habilidades</h1>
+            </Fade>
             <div className='icons-container'>
                 <Fade bottom>
                     <div className='card'>

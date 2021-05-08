@@ -8,9 +8,11 @@ export const StyledContactForm = styled.section`
     position: relative;
     text-align: center;
     /* padding-bottom: 1em; */
+    
     .container{
         max-width: 1200px;
         margin: 0 auto;
+        width: 90%;
     }
     h1{
         font-size: 3em;
@@ -107,6 +109,12 @@ export const StyledContactForm = styled.section`
             /* margin-left: 2em; */
             margin: 0 auto;
             /* color: var(--color); */
+        }
+    }
+
+    @media (max-width: 620px){
+        h1{
+            font-size: 2em;
         }
     }
 `

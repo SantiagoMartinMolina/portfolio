@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledSkills = styled.section`
     /* background-color: var(--color2); */
-    padding: 3em;
+    padding: 3em 0;
     color: white;
     border-top: 1px solid var(--color);
     border-bottom: 1px solid var(--color);
@@ -54,8 +54,7 @@ export const StyledSkills = styled.section`
                 h3{
                     opacity: 0.5;
                     transform: translateY(20px);
-                    transition: 500ms;
-                    
+                    transition: 500ms;                    
                 }
                 
             }
@@ -67,11 +66,11 @@ export const StyledSkills = styled.section`
                 .content{
                     .svg{
                         opacity: 1;
-                        transform: translateY(1px);
+                        transform: translateY(0);
                     }
                     h3{
                         opacity: 1;
-                        transform: translateY(-1px);
+                        transform: translateY(5px);
 
                     }
                 }
@@ -85,7 +84,7 @@ export const StyledSkills = styled.section`
                 transition: 0.5s;
                 opacity: 0;
             }
-            /* span:nth-child(1){
+            span:nth-child(1){
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -124,11 +123,8 @@ export const StyledSkills = styled.section`
                 background: linear-gradient(to top, transparent, var(--color));
                 animation: animate4 2s linear infinite;
                 animation-delay: 1s;
-            } */
+            }
         }
-
-
-
         .card::before{
             content: '';
             position: absolute;
@@ -137,10 +133,7 @@ export const StyledSkills = styled.section`
             bottom: 2px;
             width: 50%;
             background: rgba(255,255,255,0.1);
-            pointer-events: none;
-        }
-
-        
+        }        
     }
 
     @keyframes animate1{
@@ -182,4 +175,20 @@ export const StyledSkills = styled.section`
             transform: translateY(-100%);
         }
     }
+
+
+@media (max-width: 620px){
+    h1{
+        font-size: 2em;
+    }
+
+    .icons-container{
+        .card{
+            font-size: 15px;
+            width: 150px;
+            height: 200px;
+        }
+    }
+
+}
 `

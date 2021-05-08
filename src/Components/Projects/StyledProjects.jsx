@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledProjects = styled.section`
     /* background-color: var(--color2); */
     /* padding: 2em; */
-    padding: 3em;
+    padding: 3em 0;
 
 
     h1{
@@ -45,6 +45,24 @@ export const StyledProjects = styled.section`
         &:hover{
             background-color: #111;
             color: #f6cb86;
+        }
+    }
+
+    @media (max-width: 1200px){
+        .container{
+            flex-direction: column;
+
+            .images{
+                margin: 0;
+                width: 90%;
+            }
+        }
+    }
+
+
+    @media (max-width: 620px){
+        h1{
+            font-size: 2em;
         }
     }
 `

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const StyledHome = styled.div`
     max-width: 1200px;
+    width: 90%;
     margin: 2em auto -8em;
     z-index: 10;
     position: relative;
@@ -18,6 +19,10 @@ export const StyledHome = styled.div`
         /* background-color: #313131; */
         color: white;
     }
+
+@media (max-width: 400px){
+    padding: 2em 1em;
+}
 
     
 `

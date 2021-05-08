@@ -12,20 +12,21 @@ export const StyledArrowTop = styled.button`
 	justify-content: center;
 	z-index: 50;
 	animation: fadeIn 0.3s;
-	transition: opacity 0.4s;
+	transition: all 0.3s;
 	background-color: var(--color);
 	color: black;
 	padding: 0.3em;
+	border: 2px solid var(--color);
 
 	&:hover {
-		background-color: var(--primary-100);
-		color: var(--clr-dark);
+		background-color: black;
+		color: var(--color);
 	}
 
-	&:focus {
-		outline: 4px dotted var(--light);
+	/* &:focus {
+		outline: 4px dotted var(--color);
 		outline-offset: 0.5em;
-	}
+	} */
 
 	svg {
 		fill: currentColor;

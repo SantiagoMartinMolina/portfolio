@@ -39,7 +39,7 @@ const ContactForm = () => {
                             {!loading && 'Enviar'}
                         </button>
                         <Fade bottom>
-                            {sent && <p className='success'>Tu mensaje ha sido enviado!<i class="far fa-check-square"></i></p>}
+                            {sent && <p className='success'><i class="far fa-check-square"></i>Tu mensaje ha sido enviado!</p>}
                         </Fade>
                     </form>
                 </Fade>

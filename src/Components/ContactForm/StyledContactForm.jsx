@@ -74,9 +74,9 @@ export const StyledContactForm = styled.section`
         }
 
         .success{
-            font-size: 1.5em;
+            font-size: 1.1em;
             i{
-                margin-left: 0.5em;
+                margin-right: 0.5em;
                 color: green;
             }
         }

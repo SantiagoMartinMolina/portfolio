@@ -54,6 +54,12 @@ export const StyledNavbar = styled.nav`
                     margin-right: auto;
                 }
         }
+
+        .links{
+            a:hover{
+                color: var(--color);
+            }
+        }
     }
 
     @media (max-width: 800px) {

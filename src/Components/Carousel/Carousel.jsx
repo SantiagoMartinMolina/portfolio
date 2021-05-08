@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { StyledCarousel } from './StyledCarousel';
-import { images } from '../../Helpers/CarouselData';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
-function Carousel() {
+function Carousel({ images }) {
     const [currImg, setCurrImg] = useState(0);
     return (
         <StyledCarousel>

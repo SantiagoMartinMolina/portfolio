@@ -2,6 +2,8 @@ import React from 'react';
 import Carousel from '../Carousel/Carousel';
 import { StyledProjects } from './StyledProjects';
 import Fade from 'react-reveal/Fade';
+import { clima, dogs } from '../../Helpers/CarouselData';
+
 
 const Projects = () => {
     return (
@@ -18,7 +20,7 @@ const Projects = () => {
 
                     </div>
                     <div className='images'>
-                        <Carousel />
+                        <Carousel images={dogs} />
                     </div>
                 </div>
                 <div className='container'>
@@ -31,7 +33,7 @@ const Projects = () => {
                         <a className='btn' href="https://pi-dogs.vercel.app/" target='_blank' rel='noopener noreferrer'>Ver demo</a>
                     </div>
                     <div className='images'>
-                        <Carousel />
+                        <Carousel images={dogs} />
 
 
                     </div>
@@ -44,7 +46,7 @@ const Projects = () => {
                         <a className='btn' href="https://app-clima-self.vercel.app/" target='_blank' rel='noopener noreferrer'>Ver demo</a>
                     </div>
                     <div className='images'>
-                        <Carousel />
+                        <Carousel images={clima} />
                     </div>
                 </div>
             </Fade>

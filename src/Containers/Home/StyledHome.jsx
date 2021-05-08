@@ -21,7 +21,7 @@ export const StyledHome = styled.div`
     }
 
 @media (max-width: 400px){
-    padding: 2em 1em;
+    padding: 2em 1em 1em;
 }
 
     

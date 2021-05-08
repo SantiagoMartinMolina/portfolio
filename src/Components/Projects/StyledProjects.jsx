@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledProjects = styled.section`
     /* background-color: var(--color2); */
     /* padding: 2em; */
-    padding: 3em 0;
+    padding: 3em 0 0;
 
 
     h1{
@@ -15,7 +15,7 @@ export const StyledProjects = styled.section`
         display: flex;
         /* justify-content: space-between; */
         align-items: center;
-        margin: 3em 0;
+        margin: 3em 0 0;
 
         .images{
             margin-left: 1.5em;
@@ -53,7 +53,7 @@ export const StyledProjects = styled.section`
             flex-direction: column;
 
             .images{
-                margin: 0;
+                margin: 1em 0 0;
                 width: 100%;
             }
         }
@@ -63,6 +63,12 @@ export const StyledProjects = styled.section`
     @media (max-width: 620px){
         h1{
             font-size: 2em;
+        }
+    }
+    @media (max-width: 460px){
+        .btn{
+            display: block;
+            margin: 0.8em 0;
         }
     }
 `

@@ -116,5 +116,10 @@ export const StyledContactForm = styled.section`
         h1{
             font-size: 2em;
         }
+        .social-media{
+            p{
+                font-size: 0.9em;
+            }
+        }
     }
 `

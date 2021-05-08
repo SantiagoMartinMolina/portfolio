@@ -13,7 +13,9 @@ const Projects = () => {
                         <h2>Arthub</h2>
                         <p>E-commerce de venta de obras de arte. Se realizó en grupo, utilizando la metodología SCRUM. Las tecnologías utilizadas fueron: React, Redux, Express, Sequelize, Firebase, PostgreSQL y autenticación mediante JWT.
                         </p>
-                        <button className='btn'>Repositorio</button>
+                        <a className='btn' href="https://github.com/SantiagoMartinMolina/PI-Dogs-API" target='_blank' rel='noopener noreferrer'>Ver repositorio</a>
+                        <a className='btn' href="https://pi-dogs.vercel.app/" target='_blank' rel='noopener noreferrer'>Ver demo</a>
+
                     </div>
                     <div className='images'>
                         <Carousel />

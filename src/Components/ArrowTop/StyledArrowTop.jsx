@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const StyledArrowTop = styled.button`
 	border: 0;
 	border-radius: 0;
-	width: 3rem;
-	height: 3rem;
+	width: 2.5rem;
+	height: 2.5rem;
 	position: fixed;
 	bottom: 2em;
 	right: 2em;
@@ -12,11 +12,9 @@ export const StyledArrowTop = styled.button`
 	justify-content: center;
 	z-index: 50;
 	animation: fadeIn 0.3s;
-	opacity: 1;
 	transition: opacity 0.4s;
-	background-color: var(--light);
-	color: var(--primary-200);
-	box-shadow: 5px 5px 0px var(--primary-300);
+	background-color: var(--color);
+	color: black;
 	padding: 0.3em;
 
 	&:hover {

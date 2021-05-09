@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledAbout = styled.section`
-    /* padding: 2em; */
-    /* background-color: var(--color2); */
-
-    /* background: rgb(49,49,49); */
-    /* background: linear-gradient(0deg, rgba(49,49,49,1) 0%, rgba(49,49,49,1) 10%, rgba(49,49,49,0) 100%); */
     margin: 3em 0;
     .subtitle{
         font-size: 1.6em;
@@ -39,10 +34,7 @@ export const StyledAbout = styled.section`
     }
     h1{
         font-size: 5em;
-        /* color: rgb(99, 204, 152); */
-        /* color: rgb(226, 219, 118); */
         color: var(--color);
-        /* text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.486); */
         position: relative;
         z-index: 1;
         display: inline-block;

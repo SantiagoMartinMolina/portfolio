@@ -25,7 +25,6 @@ export const StyledNavbar = styled.nav`
             list-style: none;
             justify-content: center;  
             align-items: center;
-            /* flex-wrap: wrap; */
 
             a{
                 padding: 0.5em;

@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const StyledContactForm = styled.section`
-    /* height: 350px; */
     background-color: var(--color);
     padding-top: 10em;
     z-index: 1;
     position: relative;
     text-align: center;
-    /* padding-bottom: 1em; */
     
     .container{
         max-width: 1200px;
@@ -83,11 +81,7 @@ export const StyledContactForm = styled.section`
 
     }
     .social-media{
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
         background-color: var(--color3);
-        /* flex-direction: column; */
         color: white;
         padding: 1em 0;
         a{

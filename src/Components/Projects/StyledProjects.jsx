@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledProjects = styled.section`
-    /* background-color: var(--color2); */
-    /* padding: 2em; */
     padding: 3em 0 0;
-
 
     h1{
         color: white;

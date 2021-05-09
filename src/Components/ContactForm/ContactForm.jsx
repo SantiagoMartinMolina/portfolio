@@ -16,9 +16,6 @@ const ContactForm = () => {
             .then((result) => {
                 setLoading(false);
                 setSent(true);
-                // setTimeout(() => {
-                //     setSent(false);
-                // }, 3000);
             }, (error) => {
                 console.log(error);
             });

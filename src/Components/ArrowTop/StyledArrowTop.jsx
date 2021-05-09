@@ -23,11 +23,6 @@ export const StyledArrowTop = styled.button`
 		color: var(--color);
 	}
 
-	/* &:focus {
-		outline: 4px dotted var(--color);
-		outline-offset: 0.5em;
-	} */
-
 	svg {
 		fill: currentColor;
 		width: 100%;

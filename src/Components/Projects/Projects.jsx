@@ -3,7 +3,7 @@ import Carousel from '../Carousel/Carousel';
 import { StyledProjects } from './StyledProjects';
 import Fade from 'react-reveal/Fade';
 import { clima, dogs } from '../../Helpers/CarouselData';
-
+import ReactPlayer from 'react-player';
 
 const Projects = () => {
     return (
@@ -16,11 +16,15 @@ const Projects = () => {
                         <p>E-commerce de venta de obras de arte. Se realizó en grupo, utilizando la metodología SCRUM. Las tecnologías utilizadas fueron: React, Redux, Express, Sequelize, Firebase, PostgreSQL y autenticación mediante JWT.
                         </p>
                         <a className='btn' href="https://github.com/SantiagoMartinMolina/PI-Dogs-API" target='_blank' rel='noopener noreferrer'>Ver repositorio</a>
-                        <a className='btn' href="https://pi-dogs.vercel.app/" target='_blank' rel='noopener noreferrer'>Ver demo</a>
 
                     </div>
                     <div className='images'>
-                        <Carousel images={dogs} />
+                        <ReactPlayer
+                            url='https://www.youtube.com/watch?v=Yx_iqGAmwU8'
+                            width='100%'
+                            // height='100%'
+                            controls
+                        />
                     </div>
                 </div>
                 <div className='container'>

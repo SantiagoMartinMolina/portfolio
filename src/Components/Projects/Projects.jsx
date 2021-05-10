@@ -15,14 +15,13 @@ const Projects = () => {
                         <h2>Arthub</h2>
                         <p>E-commerce de venta de obras de arte. Se realizó en grupo, utilizando la metodología SCRUM. Las tecnologías utilizadas fueron: React, Redux, Express, Sequelize, Firebase, PostgreSQL y autenticación mediante JWT.
                         </p>
-                        <a className='btn' href="https://github.com/SantiagoMartinMolina/PI-Dogs-API" target='_blank' rel='noopener noreferrer'>Ver repositorio</a>
+                        <a className='btn' href="https://github.com/SantiagoMartinMolina/Arthub" target='_blank' rel='noopener noreferrer'>Ver repositorio</a>
 
                     </div>
                     <div className='images'>
                         <ReactPlayer
-                            url='https://www.youtube.com/watch?v=Yx_iqGAmwU8'
+                            url='https://www.youtube.com/watch?v=5oKJpRSD0To'
                             width='100%'
-                            // height='100%'
                             controls
                         />
                     </div>

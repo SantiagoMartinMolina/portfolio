@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from '../Carousel/Carousel';
 import { StyledProjects } from './StyledProjects';
 import Fade from 'react-reveal/Fade';
-import { clima, dogs } from '../../Helpers/CarouselData';
+import { clima, dogs, movye } from '../../Helpers/CarouselData';
 import ReactPlayer from 'react-player';
 
 const Projects = () => {
@@ -10,6 +10,19 @@ const Projects = () => {
         <StyledProjects id='proyectos'>
             <Fade bottom><h1>Proyectos</h1></Fade>
             <Fade bottom>
+                <div className='container'>
+                    <div className='description'>
+                        <h2>Movye</h2>
+                        <p>
+                            Aplicación web para buscar películas, ordenar y filtrar. También permite agregar películas a "Favorites" y "Watchlist". La información es traída de <a className='api-link' href='https://www.themoviedb.org/documentation/api' target='_blank' rel='noopener noreferrer'>The Movie DB</a>. El proyecto fue realizado junto con <a className='api-link' href="https://github.com/Aglowkeys" target='_blank' rel='noopener noreferrer'>Emiliano Alfonso</a> y las tecnologías utilizadas fueron Next.js y styled components.
+                        </p>
+                        <a className='btn' href="https://github.com/SantiagoMartinMolina/Movye" target='_blank' rel='noopener noreferrer'>Ver repositorio</a>
+                        <a className='btn' href="https://movye.vercel.app/" target='_blank' rel='noopener noreferrer'>Ver demo</a>
+                    </div>
+                    <div className='images'>
+                        <Carousel images={movye} />
+                    </div>
+                </div>
                 <div className='container'>
                     <div className='description'>
                         <h2>Arthub</h2>
@@ -38,8 +51,6 @@ const Projects = () => {
                     </div>
                     <div className='images'>
                         <Carousel images={dogs} />
-
-
                     </div>
                 </div>
                 <div className='container'>

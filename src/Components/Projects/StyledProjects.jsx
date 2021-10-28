@@ -45,6 +45,15 @@ export const StyledProjects = styled.section`
         }
     }
 
+    .api-link{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .api-link:hover{
+        text-decoration: underline
+    }
+
     @media (max-width: 1200px){
         .container{
             flex-direction: column;
